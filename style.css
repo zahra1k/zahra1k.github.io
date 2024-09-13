@@ -1,0 +1,44 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px}
+
+ #logo
+ { background-color: aquamarine;
+color: rgb(150, 16, 240);
+font-size: 7vh;
+font-family: "Fredoka One", sans-serif ;}
+
+.listone {list-style: none; text-decoration: none; background-color: aquamarine;}
+.navbutton { text-decoration: none; color: brown; padding: 12px; border: 3px solid rgb(150, 16, 240); border-radius: 15%;}
+
+body > main article {width: 70%; margin: auto} 
+
+form { text-align: center;}
+h2 {text-align: center;}
+
+img {border-radius: 50%;}
+
+/* layout */
+#main-header 
+    { background-color: aquamarine; 
+    display: flex; 
+    font-size: 2.5vh;
+    align-items: center;
+    justify-content: space-around;}
+
+.listone {display: flex;}
+
+.listone > li 
+{padding: 8px;
+margin: 16px;}
+
+body > footer { display: flex; background-color: aquamarine;}
+
+#footer-ul {display: flex; list-style: none;}
+
+#footer-ul { margin-left: 15px ; margin-right: 5px;}
+
+#main-content {display: flex;
+justify-content: space-around;}
+
+#main-content > div { width: 70% ;}
